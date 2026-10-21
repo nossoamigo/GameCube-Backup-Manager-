@@ -2612,6 +2612,7 @@ public partial class frmMain : Form
         InitializeComponent();
         //Do Work
         MainCore(callback);
+        InitSelectionFileMenus(); // Carregar/Salvar seleção via arquivo .sel
         FINISHEDLAUNCH = true;
         Show();
         Activate();
