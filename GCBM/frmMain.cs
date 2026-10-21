@@ -2625,7 +2625,7 @@ public partial class frmMain : Form
         notifyIcon.Visible = true;
         InstallQueue = new Dictionary<int, Game>();
         tbSearch.KeyPress += CheckEnterKeyPress;
-        Text = "GameCube Backup Manager 2022 - " + VERSION() + " - 64-bit";
+        Text = "GameCube Backup Manager 2022 (Mod .sel) - " + VERSION() + " - 64-bit";
 
         tsslCurrentYear.Text = "Copyright © 2019 - " + DateTime.Now.Year + " Laete Meireles";
         //Splash Screen
